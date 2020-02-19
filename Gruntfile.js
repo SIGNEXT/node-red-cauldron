@@ -139,6 +139,7 @@ module.exports = function(grunt) {
                     "packages/node_modules/@node-red/editor-client/src/js/font-awesome.js",
                     "packages/node_modules/@node-red/editor-client/src/js/history.js",
                     "packages/node_modules/@node-red/editor-client/src/js/validators.js",
+                    "packages/node_modules/@node-red/editor-client/src/js/monitoring/darkmagic.js",
                     "packages/node_modules/@node-red/editor-client/src/js/ui/utils.js",
                     "packages/node_modules/@node-red/editor-client/src/js/ui/common/editableList.js",
                     "packages/node_modules/@node-red/editor-client/src/js/ui/common/treeList.js",
