@@ -201,7 +201,7 @@ module.exports = function(grunt) {
                         "packages/node_modules/@node-red/editor-client/src/vendor/jsonata/formatter.js",
                         "packages/node_modules/@node-red/editor-client/src/vendor/ace/ace.js",
                         "packages/node_modules/@node-red/editor-client/src/vendor/ace/ext-language_tools.js",
-                        "packages/node_modules/@node-red/editor-client/src/vendor/chartjs/Chart.min.js"
+                        "packages/node_modules/@node-red/editor-client/src/vendor/chartjs/Chart.bundle.min.js"
                     ],
                     // "packages/node_modules/@node-red/editor-client/public/vendor/vendor.css": [
                     //     // TODO: resolve relative resource paths in
