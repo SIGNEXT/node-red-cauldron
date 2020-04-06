@@ -14,7 +14,7 @@
         "test": "grunt",
         "build": "grunt build",
         "docs": "grunt docs",
-        "dev": "grunt dev --force"
+        "dev": "grunt dev"
     },
     "contributors": [
         {
