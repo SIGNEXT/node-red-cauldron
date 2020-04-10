@@ -215,7 +215,7 @@ module.exports = function(grunt) {
                 }
             }
         },
-        uglify: {
+        terser: {
             build: {
                 files: {
                     'packages/node_modules/@node-red/editor-client/public/red/red.min.js': 'packages/node_modules/@node-red/editor-client/public/red/red.js',
@@ -494,7 +494,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-simple-mocha');
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-contrib-concat');
-    grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-terser');
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-concurrent');
@@ -619,7 +619,7 @@ module.exports = function(grunt) {
 
     grunt.registerTask('build',
         'Builds editor content',
-        ['clean:build','jsonlint','concat:build','concat:vendor','copy:build','uglify:build','sass:build','attachCopyright']);
+        ['clean:build','jsonlint','concat:build','concat:vendor','copy:build','terser:build','sass:build','attachCopyright']);
 
     grunt.registerTask('dev',
         'Developer mode: run node-red, watch for source changes and build/restart',
